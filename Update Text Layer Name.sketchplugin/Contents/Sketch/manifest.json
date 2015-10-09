@@ -1,0 +1,26 @@
+{
+  "name": "Update Text Layer Name",
+  "description": "Very simple Sketch plugin to update Text layer names from their own text values.",
+  "author": "Creatide",
+  "authorEmail" : "hello@creatide.com",
+  "homepage": "http://github.com/Creatide/Sketch_Update-Text-Layer-Name",
+  "version": 1.0,
+  "identifier": "com.creatide.sketch.update-text-layer-name",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Update Text Layer Name",
+      "identifier": "update",
+      "script": "updateTextLayerName.js",
+      "handler": "updateTextLayerName",
+      "shortcut": "ctrl option cmd t"
+    }
+  ],
+  "menu": {
+    "title": "Update Text Layer Names",
+    "items": [
+      "update"
+    ]
+  }
+}
