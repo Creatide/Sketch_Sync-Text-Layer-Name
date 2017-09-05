@@ -1,5 +1,5 @@
 {
-    "name": "Update Text Layer Name",
-    "description": "Sketch plugin to update Text layer names from their own text values.",
+    "name": "Update Group Name From Text Layer",
+    "description": "Sketch plugin to update Group name using a contained text layer's own text values.",
     "tags": ["rename", "update", "layers", "text", "value"]
 }
