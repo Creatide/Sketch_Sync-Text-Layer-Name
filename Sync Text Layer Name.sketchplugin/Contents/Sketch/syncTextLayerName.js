@@ -1,4 +1,4 @@
-function updateTextLayerName(context) {
+function syncTextLayerName(context) {
 
     var doc = context.document;
     var selection = context.selection;

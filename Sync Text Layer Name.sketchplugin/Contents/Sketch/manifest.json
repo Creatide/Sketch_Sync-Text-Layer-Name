@@ -1,0 +1,26 @@
+{
+  "name": "Sync Text Layer Name",
+  "description": "Very simple Sketch plugin to sync Text layer names from their own text values.",
+  "author": "Creatide",
+  "authorEmail" : "hello@creatide.com",
+  "homepage": "http://github.com/Creatide/Sketch_Update-Text-Layer-Name",
+  "version": 1.0,
+  "identifier": "com.creatide.sketch.sync-text-layer-name",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Sync Text Layer Name",
+      "identifier": "sync",
+      "script": "syncTextLayerName.js",
+      "handler": "syncTextLayerName",
+      "shortcut": "ctrl option cmd t"
+    }
+  ],
+  "menu": {
+    "title": "Sync Text Layer Names",
+    "items": [
+      "sync"
+    ]
+  }
+}
