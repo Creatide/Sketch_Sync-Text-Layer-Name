@@ -1,5 +1,5 @@
 {
     "name": "Sync Text Layer Name",
     "description": "Sketch plugin to sync text layer names from their own text values.",
-    "tags": ["rename", "sync", "layers", "text", "value"]
+    "tags": ["rename", "sync", "layers", "text", "value", "sync"]
 }
