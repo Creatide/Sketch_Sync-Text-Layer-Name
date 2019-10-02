@@ -12,6 +12,3 @@ Just select any text layer(s) and run the plugin. It goes through all of selecte
 1. Select layers and/or groups that contains Text elements.
 2. Run the `Sync Text Layer Name` from the `Plugins` menu.
 3. Now your text layer names should match with the actual text values and will stay synced, until you override the text layer name with a different name.
-
-### About
-Forked from `Creatide`'s `Sketch_Update-Text-Layer-Name` https://github.com/Creatide/Sketch_Update-Text-Layer-Name plugin.
