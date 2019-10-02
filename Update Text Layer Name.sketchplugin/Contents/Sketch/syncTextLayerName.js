@@ -1,10 +1,10 @@
-function updateTextLayerName(context) {
+function syncTextLayerName(context) {
 
     var doc = context.document;
     var selection = context.selection;
 
     if (selection.count() == 0) {
-        doc.showMessage("Select at least one item. Only Text layer names is affected.");
+        doc.showMessage("Select at least one text layer.");
         return;
 
     } else {
