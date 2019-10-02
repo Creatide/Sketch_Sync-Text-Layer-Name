@@ -28,6 +28,7 @@ function updateTextLayerName(context) {
                 callback(layer);
                 if ([layer isMemberOfClass: [MSTextLayer class]]) {
                     layer.setName(layer.stringValue());
+                    layer.setNameIsFixed(false);
                 }
 
             }
